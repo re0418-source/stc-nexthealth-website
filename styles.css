@@ -25,3 +25,54 @@ header .logo img{display:block;width:250px;max-width:100%;height:74px;object-fit
 .hero-values{display:grid;grid-template-columns:repeat(2,max-content);gap:13px 26px;margin-top:35px;font-size:12px;color:#41656b}
 .hero-values b{color:#00a4ac;margin-right:7px}
 @media(max-width:760px){.hero-warm-science .hero-copy{padding:58px 7% 45px}.hero-warm-science h1{font-size:clamp(38px,9vw,54px)}.hero-warm-science .hero-art{min-height:400px}.hero-values{gap:10px 18px}.hero-warm-science .warm-science-image{object-position:center}}
+
+/* Approved STC NextHealth 2.0 layout, 2026-11 */
+.hero-v2{min-height:620px;grid-template-columns:50% 50%;background:linear-gradient(110deg,#f5fbfb 0%,#eff9f8 45%,#d3e9e7 100%)}
+.hero-v2 .hero-copy{padding:78px 4% 62px 10%;display:flex;flex-direction:column;justify-content:center}
+.hero-v2 h1{font-size:clamp(36px,4.15vw,66px);line-height:1.43;margin:16px 0 14px;letter-spacing:-.04em}
+.hero-v2 h1 em{color:#007f87}
+.hero-v2 .hero-en{font-size:16px;font-weight:700;color:#003650;border-left:4px solid #e5a526;padding-left:14px}
+.hero-v2 p{font-size:14px;max-width:550px;margin:22px 0 0;line-height:2}
+.hero-v2 .hero-values{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:28px;font-weight:600;color:#194c53}
+.hero-v2 .hero-values b{font-size:22px;color:#009a9e;vertical-align:middle}
+.hero-v2 .actions{margin-top:28px}
+.hero-v2 .hero-art{min-height:620px}
+.hero-v2 .warm-science-image{object-fit:cover;object-position:center;z-index:2}
+.hero-art-overlay{position:absolute;z-index:3;bottom:7%;right:7%;background:#ffffffd9;backdrop-filter:blur(8px);padding:15px 22px;border-radius:12px;box-shadow:0 15px 40px #00365018;text-align:right;color:#003650}
+.hero-art-overlay span{font-size:10px;letter-spacing:.18em;display:block}
+.hero-art-overlay strong{font-size:17px;letter-spacing:.04em}
+.collections-v2{padding-top:72px}
+.collections-v2 .collection-grid{gap:16px}
+.collections-v2 .collection{border-radius:22px;box-shadow:0 10px 25px #0036500b}
+.collections-v2 .card-copy{padding:24px 27px 28px}
+.collections-v2 .card-skin{background:#e9f5fa}
+.collections-v2 .card-pet{background:#e8f3e4}
+.collections-v2 .card-home{background:#f8f0e3}
+.collections-v2 .v-skin{background:radial-gradient(circle at 60% 60%,#f9ffff,#c9e9f2)}
+.collections-v2 .v-pet{background:radial-gradient(circle at 50% 40%,#f8fff1,#cce4bf)}
+.collections-v2 .v-home{background:radial-gradient(circle at 55% 40%,#fffdf4,#e9d4af)}
+.collections-v2 .collection-motif{position:absolute;width:210px;height:210px;border:2px solid #ffffffb0;border-radius:50%}
+.collections-v2 .pet-illustration{display:flex;align-items:center;justify-content:center;gap:6px;font-size:45px;color:#77a04c;transform:translateY(10px)}
+.collections-v2 .pet-illustration span{font-size:75px;filter:drop-shadow(0 8px 8px #53784420)}
+.collections-v2 .home-leaf{position:absolute;font-size:130px;color:#8dbb3980;right:12%;top:3%}
+.collections-v2 .card-copy h3{font-size:24px}
+.collections-v2 .card-copy p{line-height:1.85;min-height:48px}
+.story-v2{background:#f8f5ec}
+.story-v2 .story-art{background:linear-gradient(145deg,#e5e9d1,#f3dfaa)}
+.story-v2 .story-copy{padding:70px 8%}
+.story-v2 .story-copy h2{font-size:clamp(30px,3.1vw,46px)}
+.research-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:28px 0}
+.research-pair>div{padding:17px;background:#ffffffb8;border-radius:12px;display:flex;flex-direction:column;gap:7px}
+.research-pair b{font-size:10px;letter-spacing:.08em;color:#138b8d}
+.research-pair strong{font-size:16px;color:#003650}
+.research-pair span{font-size:11px;color:#677e83;line-height:1.7}
+.brand-values-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:0;padding:32px 6%;background:linear-gradient(115deg,#003650,#005d67 55%,#007b75);color:#fff}
+.value-item{display:flex;align-items:center;justify-content:center;gap:15px;padding:12px 15px;border-right:1px solid #ffffff55}
+.value-item:last-child{border-right:0}
+.value-icon{font-size:35px;color:#d4d98d}
+.value-item div{display:flex;flex-direction:column;gap:5px}
+.value-item strong{font-size:16px}
+.value-item small{font-size:11px;color:#d3e7e7}
+@media(max-width:1050px){.hero-v2 .hero-copy{padding-left:7%}.hero-v2 h1{font-size:clamp(35px,4.3vw,53px)}.hero-v2 .hero-values{gap:7px 12px;font-size:11px}.collections-v2 .card-copy h3{font-size:21px}.research-pair{grid-template-columns:1fr}}
+@media(max-width:760px){.hero-v2{grid-template-columns:1fr}.hero-v2 .hero-copy{padding:60px 7% 50px}.hero-v2 h1{font-size:clamp(37px,8vw,56px)}.hero-v2 .hero-art{min-height:360px}.hero-art-overlay{padding:11px 14px}.hero-art-overlay strong{font-size:13px}.collections-v2{padding-top:60px}.collections-v2 .collection{grid-template-columns:42% 58%}.collections-v2 .card-copy{padding:18px}.collections-v2 .card-copy h3{font-size:19px}.collections-v2 .card-copy p{min-height:0;font-size:11px}.collections-v2 .pet-illustration{gap:0}.collections-v2 .pet-illustration span{font-size:36px}.collections-v2 .home-leaf{font-size:70px}.story-v2 .story-copy{padding:55px 7%}.research-pair{grid-template-columns:1fr 1fr}.brand-values-strip{grid-template-columns:repeat(2,1fr);padding:18px 4%}.value-item:nth-child(2){border-right:0}.value-item:nth-child(-n+2){border-bottom:1px solid #ffffff45}.value-icon{font-size:28px}.value-item strong{font-size:13px}.value-item small{font-size:10px}}
+@media(max-width:420px){.hero-v2 h1{font-size:36px}.hero-v2 .hero-values{display:grid;grid-template-columns:repeat(2,1fr)}.collections-v2 .card-copy h3{font-size:17px}.research-pair{grid-template-columns:1fr}.brand-values-strip{padding:16px 2%}.value-item{gap:8px;padding:12px 6px}}
